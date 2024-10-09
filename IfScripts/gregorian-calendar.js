@@ -1,9 +1,16 @@
-var year = 2000
-var leap = 4
 
-if (year/4)
-{console.log("It is a leap year.");}
+
+var year1 = 1900
+var year2 = 1950
+var year3 = 1999
+var year4 = 2000
+var year5 =2001
+var year6 =2012
+
+
+if (year5%4==0)
+ console.log("It is a leap year.");
 else {
-    console.log("This is not a leap year.");
+    console.log("This is not a leap year.")
     
 }
